@@ -122,6 +122,16 @@ The code of the sensor and other useful files of the above project are located h
 * [gatt.btconf](src/gatt_configuration.btconf)
 
 
+The pinout used on BRD4316 is the following :
+
+|  SPI     |  EFR32  |   BRD4002    |
+| -------- | ------- | -------------|
+| MOSI     | PC00    | EXP_HEADER4  |
+| MISO     | PC01    | EXP_HEADER6  |
+| CLK      | PC02    | EXP_HEADER8  |
+| CS       | PC03    | EXP_HEADER10 |
+
+
 ## Disclaimer
 
 The Gecko SDK suite supports development with Silicon Labs IoT SoC and module devices. Unless otherwise specified in the specific directory, all examples are considered to be EXPERIMENTAL QUALITY which implies that the code provided in the repos has not been formally tested and is provided as-is. It is not suitable for production environments. In addition, this code will not be maintained and there may be no bug maintenance planned for these resources. Silicon Labs may update projects from time to time.
